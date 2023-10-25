@@ -1,0 +1,32 @@
+body {
+  background: black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  border: 2px solid darkblue;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+  font-family: monospace;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.selects {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: monospace;
+  font-size: 1rem;
+}
